@@ -1,0 +1,18 @@
+{
+  "name": "eko-hudud",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TOZA HUDUD — chiqindilarni boshqarish davlat platformasi (mock MVP)",
+  "scripts": {
+    "dev:web": "pnpm --filter @toza/web dev",
+    "dev:api": "pnpm --filter @toza/api start:dev",
+    "build:web": "pnpm --filter @toza/web build",
+    "build:api": "pnpm --filter @toza/api build",
+    "db:seed": "pnpm --filter @toza/api db:seed",
+    "db:push": "pnpm --filter @toza/api db:push"
+  },
+  "packageManager": "pnpm@10.33.2",
+  "engines": {
+    "node": ">=20"
+  }
+}
